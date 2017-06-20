@@ -1,13 +1,24 @@
 {
-  "name": "medialists",
+  "name": "ITStudents",
   "version": "1.0.0",
   "description": "Application to help track media you own",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
-    "express" : "~4.5.1",
-    "mongoose" : "~3.8.0",
-    "body-parser" : "~1.4.2",
-    "method-override" : "~2.0.2"
+    "@angular/cli": "^1.1.2",
+    "angular": "^1.6.1",
+    "angular-resource": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-touch": "^1.6.1",
+    "body-parser": "~1.4.2",
+    "express": "~4.5.1",
+    "jquery": "^3.1.1",
+    "method-override": "~2.0.2",
+    "minimatch": "^3.0.4",
+    "mongoose": "~3.8.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-jwt-bearer": "^0.1.1"
   },
   "scripts": {
     "test": "grunt"
@@ -16,16 +27,6 @@
     "type": "git",
     "url": "https://phart12@medialists.scm.azurewebsites.net:443/MediaLists.git"
   },
-  "keywords": [
-    "Media",
-    "Lists",
-    "Movies",
-    "TV",
-    "Shows",
-    "Music",
-    "Songs",
-    "Books"
-  ],
   "author": "Persephone Hart",
   "license": "ISC"
 }
