@@ -5,7 +5,8 @@ var mongoose = require('mongoose');
 // define listOfArticles model
 // module.exports passes this to other files when it is called
 module.exports = mongoose.model('listOfArticles', {
-    listID: { type : String, default: ''},
+    _id : {type: String, default: ''},
+    id: { type : String, default: ''},
     listName: { type : String, default: ''},
     listDescription: { type : String, default: ''},
     userName: { type : String, default: ''},
